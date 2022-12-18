@@ -1,0 +1,4 @@
+ **** React install*****
+
+  npx create-react-app my-app
+  yarn create react-app project-name
