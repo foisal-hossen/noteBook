@@ -1,4 +1,95 @@
- **** React install*****
+  ---------------------------REACT ROUTER---------------------------------------------------
 
-  npx create-react-app my-app
-  yarn create react-app project-name
+
+1 . npm install react-router-dom
+
+    import {creatBrowserRouter} from 'react-router-dom'
+
+
+-------------------------------------------------------------
+ReaChart add: (yarn add recharts), ( npm install reacharts )
+
+ ------------------------------------------Tailwind----------------------------------------------------------
+1.npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p
+
+2.content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+
+3.@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+4.npm run start
+
+5.npm i daisyui
+6.plugins: [require("daisyui")],
+7. white background:
+
+   daisyui: {
+      themes: [
+        {
+          mytheme: {
+        
+              "primary": "#e4c0f7",
+          
+              "secondary": "#f7091d",
+          
+              "accent": "#eaa4b6",
+          
+              "neutral": "#29192A",
+          
+              "base-100": "#F0EBF5",
+          
+              "info": "#5373F3",
+          
+              "success": "#64DD91",
+          
+              "warning": "#AB8C12",
+          
+             "error": "#EB3348",
+             },
+          },
+       ],
+    },
+	
+	----FORMS----
+	npm install -D @tailwindcss/forms
+	
+	require('@tailwindcss/forms'),
+
+
+-------------------------------------------------FONT AWASOME------------------------
+
+ 1.  npm i --save @fortawesome/fontawesome-svg-core
+	 @fortawesome/free-solid-svg-icons
+	 @fortawesome/react-fontawesome
+
+ 1.1 yarn add @fortawesome/fontawesome-svg-core
+	 yarn add @fortawesome/free-solid-svg-icons
+	 yarn add @fortawesome/react-fontawesome
+
+ 2.import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+   import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+-------------------------
+
+_redirects
+/* /index.html 200
+
+-------------------------------------------------
+
+ 1. npm i node-module
+ 
+ 2. npm install -g nodemon
+
+
+-------------------------------------fIRE bASE----------------------------
+
+ 1.npm install firebase
+ 
+ ----------------Express js----------------------
+ 
+ 1.mkdir myapp
+ 2.npm init --y
+ 3.npm i express cors nodemon
