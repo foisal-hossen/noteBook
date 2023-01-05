@@ -10,7 +10,6 @@
 ```
 > ## QUICK REACT INSTALL
   ```bash
-  cd Desktop
   git clone https://github.com/foisal-hossen/react-empty-project.git
   cd react-empty-project
   rm -fr .git
